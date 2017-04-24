@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FCA867BA1EAE265300697C49 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA867B91EAE265300697C49 /* main.m */; };
+		FCA867BD1EAE265300697C49 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA867BC1EAE265300697C49 /* AppDelegate.m */; };
+		FCA867C01EAE265300697C49 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA867BF1EAE265300697C49 /* ViewController.m */; };
+		FCA867C31EAE265300697C49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCA867C11EAE265300697C49 /* Main.storyboard */; };
+		FCA867C51EAE265300697C49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCA867C41EAE265300697C49 /* Assets.xcassets */; };
+		FCA867C81EAE265300697C49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCA867C61EAE265300697C49 /* LaunchScreen.storyboard */; };
+		FCA867D31EAE265300697C49 /* SwitchBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA867D21EAE265300697C49 /* SwitchBarTests.m */; };
+		FCA867DE1EAE265300697C49 /* SwitchBarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA867DD1EAE265300697C49 /* SwitchBarUITests.m */; };
+		FCA867ED1EAE267500697C49 /* ShapeView.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA867EC1EAE267500697C49 /* ShapeView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FCA867CF1EAE265300697C49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCA867AD1EAE265200697C49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCA867B41EAE265300697C49;
+			remoteInfo = SwitchBar;
+		};
+		FCA867DA1EAE265300697C49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCA867AD1EAE265200697C49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCA867B41EAE265300697C49;
+			remoteInfo = SwitchBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FCA867B51EAE265300697C49 /* SwitchBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwitchBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCA867B91EAE265300697C49 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FCA867BB1EAE265300697C49 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FCA867BC1EAE265300697C49 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FCA867BE1EAE265300697C49 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FCA867BF1EAE265300697C49 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FCA867C21EAE265300697C49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FCA867C41EAE265300697C49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCA867C71EAE265300697C49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FCA867C91EAE265300697C49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCA867CE1EAE265300697C49 /* SwitchBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwitchBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCA867D21EAE265300697C49 /* SwitchBarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwitchBarTests.m; sourceTree = "<group>"; };
+		FCA867D41EAE265300697C49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCA867D91EAE265300697C49 /* SwitchBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwitchBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCA867DD1EAE265300697C49 /* SwitchBarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwitchBarUITests.m; sourceTree = "<group>"; };
+		FCA867DF1EAE265300697C49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCA867EB1EAE267500697C49 /* ShapeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShapeView.h; sourceTree = "<group>"; };
+		FCA867EC1EAE267500697C49 /* ShapeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShapeView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCA867B21EAE265300697C49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCA867CB1EAE265300697C49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCA867D61EAE265300697C49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FCA867AC1EAE265200697C49 = {
+			isa = PBXGroup;
+			children = (
+				FCA867B71EAE265300697C49 /* SwitchBar */,
+				FCA867D11EAE265300697C49 /* SwitchBarTests */,
+				FCA867DC1EAE265300697C49 /* SwitchBarUITests */,
+				FCA867B61EAE265300697C49 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FCA867B61EAE265300697C49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCA867B51EAE265300697C49 /* SwitchBar.app */,
+				FCA867CE1EAE265300697C49 /* SwitchBarTests.xctest */,
+				FCA867D91EAE265300697C49 /* SwitchBarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCA867B71EAE265300697C49 /* SwitchBar */ = {
+			isa = PBXGroup;
+			children = (
+				FCA867BB1EAE265300697C49 /* AppDelegate.h */,
+				FCA867BC1EAE265300697C49 /* AppDelegate.m */,
+				FCA867BE1EAE265300697C49 /* ViewController.h */,
+				FCA867BF1EAE265300697C49 /* ViewController.m */,
+				FCA867EB1EAE267500697C49 /* ShapeView.h */,
+				FCA867EC1EAE267500697C49 /* ShapeView.m */,
+				FCA867C11EAE265300697C49 /* Main.storyboard */,
+				FCA867C41EAE265300697C49 /* Assets.xcassets */,
+				FCA867C61EAE265300697C49 /* LaunchScreen.storyboard */,
+				FCA867C91EAE265300697C49 /* Info.plist */,
+				FCA867B81EAE265300697C49 /* Supporting Files */,
+			);
+			path = SwitchBar;
+			sourceTree = "<group>";
+		};
+		FCA867B81EAE265300697C49 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FCA867B91EAE265300697C49 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FCA867D11EAE265300697C49 /* SwitchBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				FCA867D21EAE265300697C49 /* SwitchBarTests.m */,
+				FCA867D41EAE265300697C49 /* Info.plist */,
+			);
+			path = SwitchBarTests;
+			sourceTree = "<group>";
+		};
+		FCA867DC1EAE265300697C49 /* SwitchBarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FCA867DD1EAE265300697C49 /* SwitchBarUITests.m */,
+				FCA867DF1EAE265300697C49 /* Info.plist */,
+			);
+			path = SwitchBarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCA867B41EAE265300697C49 /* SwitchBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCA867E21EAE265300697C49 /* Build configuration list for PBXNativeTarget "SwitchBar" */;
+			buildPhases = (
+				FCA867B11EAE265300697C49 /* Sources */,
+				FCA867B21EAE265300697C49 /* Frameworks */,
+				FCA867B31EAE265300697C49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwitchBar;
+			productName = SwitchBar;
+			productReference = FCA867B51EAE265300697C49 /* SwitchBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FCA867CD1EAE265300697C49 /* SwitchBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCA867E51EAE265300697C49 /* Build configuration list for PBXNativeTarget "SwitchBarTests" */;
+			buildPhases = (
+				FCA867CA1EAE265300697C49 /* Sources */,
+				FCA867CB1EAE265300697C49 /* Frameworks */,
+				FCA867CC1EAE265300697C49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCA867D01EAE265300697C49 /* PBXTargetDependency */,
+			);
+			name = SwitchBarTests;
+			productName = SwitchBarTests;
+			productReference = FCA867CE1EAE265300697C49 /* SwitchBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FCA867D81EAE265300697C49 /* SwitchBarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCA867E81EAE265300697C49 /* Build configuration list for PBXNativeTarget "SwitchBarUITests" */;
+			buildPhases = (
+				FCA867D51EAE265300697C49 /* Sources */,
+				FCA867D61EAE265300697C49 /* Frameworks */,
+				FCA867D71EAE265300697C49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCA867DB1EAE265300697C49 /* PBXTargetDependency */,
+			);
+			name = SwitchBarUITests;
+			productName = SwitchBarUITests;
+			productReference = FCA867D91EAE265300697C49 /* SwitchBarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCA867AD1EAE265200697C49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = konglee;
+				TargetAttributes = {
+					FCA867B41EAE265300697C49 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					FCA867CD1EAE265300697C49 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FCA867B41EAE265300697C49;
+					};
+					FCA867D81EAE265300697C49 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FCA867B41EAE265300697C49;
+					};
+				};
+			};
+			buildConfigurationList = FCA867B01EAE265200697C49 /* Build configuration list for PBXProject "SwitchBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FCA867AC1EAE265200697C49;
+			productRefGroup = FCA867B61EAE265300697C49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCA867B41EAE265300697C49 /* SwitchBar */,
+				FCA867CD1EAE265300697C49 /* SwitchBarTests */,
+				FCA867D81EAE265300697C49 /* SwitchBarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCA867B31EAE265300697C49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCA867C81EAE265300697C49 /* LaunchScreen.storyboard in Resources */,
+				FCA867C51EAE265300697C49 /* Assets.xcassets in Resources */,
+				FCA867C31EAE265300697C49 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCA867CC1EAE265300697C49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCA867D71EAE265300697C49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCA867B11EAE265300697C49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCA867C01EAE265300697C49 /* ViewController.m in Sources */,
+				FCA867BD1EAE265300697C49 /* AppDelegate.m in Sources */,
+				FCA867ED1EAE267500697C49 /* ShapeView.m in Sources */,
+				FCA867BA1EAE265300697C49 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCA867CA1EAE265300697C49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCA867D31EAE265300697C49 /* SwitchBarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCA867D51EAE265300697C49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCA867DE1EAE265300697C49 /* SwitchBarUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FCA867D01EAE265300697C49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCA867B41EAE265300697C49 /* SwitchBar */;
+			targetProxy = FCA867CF1EAE265300697C49 /* PBXContainerItemProxy */;
+		};
+		FCA867DB1EAE265300697C49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCA867B41EAE265300697C49 /* SwitchBar */;
+			targetProxy = FCA867DA1EAE265300697C49 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FCA867C11EAE265300697C49 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCA867C21EAE265300697C49 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FCA867C61EAE265300697C49 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCA867C71EAE265300697C49 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FCA867E01EAE265300697C49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FCA867E11EAE265300697C49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCA867E31EAE265300697C49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwitchBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kong.SwitchBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FCA867E41EAE265300697C49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwitchBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kong.SwitchBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FCA867E61EAE265300697C49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SwitchBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kong.SwitchBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwitchBar.app/SwitchBar";
+			};
+			name = Debug;
+		};
+		FCA867E71EAE265300697C49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SwitchBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kong.SwitchBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwitchBar.app/SwitchBar";
+			};
+			name = Release;
+		};
+		FCA867E91EAE265300697C49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SwitchBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kong.SwitchBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SwitchBar;
+			};
+			name = Debug;
+		};
+		FCA867EA1EAE265300697C49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SwitchBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kong.SwitchBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SwitchBar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCA867B01EAE265200697C49 /* Build configuration list for PBXProject "SwitchBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCA867E01EAE265300697C49 /* Debug */,
+				FCA867E11EAE265300697C49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCA867E21EAE265300697C49 /* Build configuration list for PBXNativeTarget "SwitchBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCA867E31EAE265300697C49 /* Debug */,
+				FCA867E41EAE265300697C49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FCA867E51EAE265300697C49 /* Build configuration list for PBXNativeTarget "SwitchBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCA867E61EAE265300697C49 /* Debug */,
+				FCA867E71EAE265300697C49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FCA867E81EAE265300697C49 /* Build configuration list for PBXNativeTarget "SwitchBarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCA867E91EAE265300697C49 /* Debug */,
+				FCA867EA1EAE265300697C49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCA867AD1EAE265200697C49 /* Project object */;
+}
